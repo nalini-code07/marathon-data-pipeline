@@ -1,0 +1,7 @@
+marathon:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: marathon.duckdb
+      threads: 1 
