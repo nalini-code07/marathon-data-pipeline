@@ -1,0 +1,1 @@
+select bib_number, runner_name, category, registered_at from raw_runners where withdrawn_at is null

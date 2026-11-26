@@ -1,0 +1,1 @@
+select split_id, bib_number, checkpoint, split_seconds, recorded_at from {{ ref('stg_splits') }}

@@ -1,0 +1,14 @@
+name: 'marathon'
+version: '1.0.0'
+profile: 'marathon'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+flags:
+  send_anonymous_usage_stats: false
+
+models:
+  marathon:
+    +materialized: table  

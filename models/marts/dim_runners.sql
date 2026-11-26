@@ -1,0 +1,1 @@
+select bib_number, runner_name, category, registered_at from {{ref('stg_runners')}}
